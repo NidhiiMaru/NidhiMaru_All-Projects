@@ -29,7 +29,7 @@ function App() {
       console.log("deleted",todos);
   
     } 
-    const addTodo=(title,desc)=>{ // left from here*****************************
+    const addTodo=(title,desc)=>{ 
       console.log("i am adding todo",title,desc);
       let sno;
       if(todos.length===0){
